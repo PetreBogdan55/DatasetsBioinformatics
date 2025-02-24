@@ -11,9 +11,9 @@ struct Point {
     std::string cellType;
 };
 
-std::vector<std::string> generateColors(int numClusters) {
+std::vector<std::string> generateColors(int numClusters) { 
     std::vector<std::string> colors;
-    for (int i = 0; i < numClusters; ++i) {
+    for (int i = 0; i < numClusters; ++i) { 
         int r = (rand() % 256);
         int g = (rand() % 256);
         int b = (rand() % 256);
