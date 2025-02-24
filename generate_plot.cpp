@@ -27,7 +27,7 @@ double safe_stod(const std::string& str) {
         return std::stod(str);
     }
     catch (const std::exception& e) {
-        std::cerr << "Error converting to double: " << str << " - " << e.what() << std::endl;
+        std::cerr << "Error converting to double: NO NAME" << str << " - " << e.what() << std::endl;
         return 0.0;
     }
 }
